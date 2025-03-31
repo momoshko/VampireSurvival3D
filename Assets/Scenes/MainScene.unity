@@ -2767,7 +2767,7 @@ MonoBehaviour:
   currentHealth: 0
   knockbackForce: 5
   enemyKnockbackForce: 3
-  damageTextPrefab: {fileID: 2952809681246729913, guid: d09c174b402a1e74a90570970981199b, type: 3}
+  damageTextPrefab: {fileID: 6081773019753603729, guid: d09c174b402a1e74a90570970981199b, type: 3}
 --- !u!114 &1040766744
 MonoBehaviour:
   m_ObjectHideFlags: 0
