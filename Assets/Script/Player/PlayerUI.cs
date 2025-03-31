@@ -122,8 +122,8 @@ public class PlayerUI : MonoBehaviour
         {
             foreach (var weapon in activeWeapons)
             {
-                // MODIFIED: Add check for max level display
-                bool isMaxed = playerAttack.IsWeaponMaxed(weapon.Key);
+                // Проверяем, что playerAttack не null перед вызовом IsWeaponMaxed
+                bool isMaxed = (playerAttack != null) ? playerAttack.IsWeaponMaxed(weapon.Key) : false;
                 weaponsList += $"- {weapon.Key} (Level {weapon.Value}{(isMaxed ? " MAX" : "")})\n";
             }
         }

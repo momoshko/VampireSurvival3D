@@ -149,7 +149,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 3
   expSpherePrefab: {fileID: 3820074909497026091, guid: 97b55782d9bee1d46820fd7da7efb7b6, type: 3}
-  damageTextPrefab: {fileID: 6081773019753603729, guid: d09c174b402a1e74a90570970981199b, type: 3}
+  damageEffect: {fileID: 2759752691279875634, guid: fd34934862a33ba4d96ed031bfe4d75f, type: 3}
+  flashColor: {r: 1, g: 0, b: 0, a: 1}
+  flashDuration: 0.01
+  flashCount: 3
+  damageSound: {fileID: 8300000, guid: 1bed276dc37abfe4bac4a3cbfb9ca578, type: 3}
+  damageSoundVolume: 0.5
 --- !u!114 &7315980432523570345
 MonoBehaviour:
   m_ObjectHideFlags: 0
